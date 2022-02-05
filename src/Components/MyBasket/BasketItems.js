@@ -13,7 +13,7 @@ function BasketItems({ setCount }) {
 	const basketItems = [];
 	let total = 0;
 	items.forEach(function (item) {
-		const i = basketItems.findIndex((x) => x.id == item.id);
+		const i = basketItems.findIndex((x) => x.id === item.id);
 
 		if (i <= -1) {
 			basketItems.push({

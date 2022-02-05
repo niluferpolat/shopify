@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { MdAddShoppingCart } from "react-icons/md";
 import { IconContext } from "react-icons";
 import { toast } from "react-toastify";

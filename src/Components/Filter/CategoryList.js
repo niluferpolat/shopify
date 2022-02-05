@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Filter.css";
 
 function CategoryList({ groups, checkedList, setCheckedList }) {
