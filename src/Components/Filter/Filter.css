@@ -1,0 +1,9 @@
+.filter-container {
+	margin-top: 2rem;
+}
+.title {
+	color: #f76e11;
+}
+.checklist > input:active {
+	border: 2px solid #34495e;
+}
