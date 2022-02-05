@@ -1,70 +1,39 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ ## SHOPIFY APP
+ 
+ This is the overall apparance the app that i've made. This is a simulation of any e-commerce app. 
+ 
+ ![shopifyphoto](https://github.com/niluferpolat/shopify/blob/main/ShopifyApp.png)
+ I've designed it before i started coding it :) First of all,i searched  color schemas for the Shopify App. As i was searching,i learnt that orange color means energy and fun. I saw that some e-commerce websites such as Trendyol,Hepsiburada use orange color. So i chose my color palette as orange,white,grey and black. I've used Figma as a designing tool.
+ 
+ :point_right:[You can see the design that i've made](https://www.figma.com/file/FRYjWYYaBItxwCWpOJUeMx/Untitled?node-id=0%3A1)
+ 
+ ![filterphoto](https://github.com/niluferpolat/shopify/blob/main/resim_2022-02-05_144858.png)
+ 
+ As you can see, This filter eliminates the product by their categories. I fetched the category names from the FakeStoreAPI.
+ 
+ ![search](https://github.com/niluferpolat/shopify/blob/main/resim_2022-02-05_145204.png)
+ 
+ Search button can work together with the filter. If there is text in it,you can delete it on cross icon which occurs if there is a text.
+ 
+ ![card](https://github.com/niluferpolat/shopify/blob/main/resim_2022-02-05_145611.png)
+ 
+ When you add to the card with this button,the toast will inform you and the number on the basket icon updates itself.
+ The products that you add are added into the localstorage.
+ 
+ ![modal](https://github.com/niluferpolat/shopify/blob/main/resim_2022-02-05_145847.png)
+ 
+ You can see the products in your basket on this modal with details such as unit price,how many added and name of the products and total.
+ You can delete the products that you don't want to. After that,total,list and number on the basket icon will updated. 
+ 
+ Technologies that i've used:
+ 
+ * Javascript and ReactJS
+ * Bootstrap for responsive look
+ * CSS
+ * Local Storage for basket operations
+ * Axios for API request
+ 
+ 
+ :point_right:[You can reach out to the app with this link](https://unruffled-liskov-e50284.netlify.app)
+ 
+ 
