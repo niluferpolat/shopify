@@ -33,6 +33,7 @@ function ProductCard({ info, setCount }) {
 					<img
 						src={info.image}
 						className="card-img-top card-image d-flex justify-content-center"
+						alt=""
 					/>
 					<div className="card-body">
 						<h5 className="card-title">{title.substring(0, 20)}...</h5>
